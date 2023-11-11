@@ -1,0 +1,11 @@
+<launch>
+  <arg name="map_file" default="$(find spr_navigation)/maps/room.yaml"/>
+
+  <!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+
+  <!-- move_base -->
+  <include file="$(find spr_navigation)/launch/move_base.launch">
+  </include>
+
+</launch>

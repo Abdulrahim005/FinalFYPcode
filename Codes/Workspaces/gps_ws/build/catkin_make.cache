@@ -1,0 +1,2 @@
+gps2odom:ros_marvelmind_package:spr_navigation:turtlebot3_teleop:twist_mux
+-DCATKIN_DEVEL_PREFIX=/home/nabil/gps_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nabil/gps_ws/install -G Unix Makefiles

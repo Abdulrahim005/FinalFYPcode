@@ -1,0 +1,8 @@
+prefix=/home/nabil/gps_ws/devel
+
+Name: gps2odom
+Description: Description of gps2odom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

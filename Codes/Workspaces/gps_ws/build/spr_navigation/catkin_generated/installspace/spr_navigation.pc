@@ -1,0 +1,8 @@
+prefix=/home/nabil/gps_ws/install
+
+Name: spr_navigation
+Description: Description of spr_navigation
+Version: 1.2.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

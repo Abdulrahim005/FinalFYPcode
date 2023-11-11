@@ -1,0 +1,8 @@
+prefix=/home/nabil/gps_ws/install
+
+Name: twist_mux
+Description: Description of twist_mux
+Version: 3.1.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs geometry_msgs visualization_msgs diagnostic_updater
